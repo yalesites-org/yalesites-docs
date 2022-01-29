@@ -1,0 +1,30 @@
+---
+title: "Colors"
+description: "This is the colors code page"
+tab: "Development"
+tabOrder: 1
+publishToStyleGuide: true
+---
+
+## This is an example of a Component Page
+
+It is similar to the other pages in that you can use Markdown/MDX, but it expects to find your component documentation in the `/components` directory (although you can change that in your `gatsby-config.js` file by setting the `componentLibPath`). There is also support for showing components from a Storybook build. By default it is set to pull from the default Storybook build path (`/storybook/iframe.html`), but that is configurable in `gatsby-config.js` by setting `UILibPath`.
+
+The `id` for your component is the ID that Storybook uses to identify the component in their iframe, which is `COMPONENT_DIRECTORY--COMPONTENT_NAME` (you can find this in the Storybook URL). There is also a height prop that you can configure to increase the height of the iframe. The example button below uses the following code:
+
+```
+<StorybookComponent id="tokens-colors--colors" height="500px" />
+```
+
+<StorybookComponent id="tokens-colors--colors" height="500px" />
+
+<TabLinks defaultTab="React">
+  <a href="http://example.com/vanillajs" target="_blank">Vanilla JS</a>
+  <a href="http://example.com/angular" target="_blank">Angular</a>
+</TabLinks>
+
+```html
+<button>Click Here</button>
+```
+
+[Next: Another Component Example](/cta/code/)

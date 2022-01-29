@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "General documentation for YaleSites projects",
   "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/yalesites-org/yealesites-docs/issues"
   },
-  "homepage": "https://github.com/yalesites-org/yealesites-docs#readme"
+  "homepage": "https://github.com/yalesites-org/yealesites-docs#readme",
+  "dependencies": {
+    "gatsby": "^2.32.13",
+    "gatsby-theme-emulsify": "^2.1.0"
+  }
 }
