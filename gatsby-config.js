@@ -4,6 +4,7 @@ module.exports = {
     {
       resolve: "gatsby-theme-emulsify",
       options: {
+        preset: "gatsby-theme-emulsify/src/gatsby-plugin-theme-ui",
         // Site Metadata for style guide
         siteMetadata: {
           title: "YaleSites Documentation",
