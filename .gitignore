@@ -5,3 +5,4 @@ public
 .cache
 yarn.lock
 package-lock.json
+gatsby-theme-emulsify
