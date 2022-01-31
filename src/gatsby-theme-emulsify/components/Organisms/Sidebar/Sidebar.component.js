@@ -52,7 +52,7 @@ class Sidebar extends Component {
         sx={
           colorMode === "default"
             ? {
-                backgroundColor: "muted",
+                backgroundColor: "background",
                 color: "primary",
                 flex: "0 1 28%",
               }

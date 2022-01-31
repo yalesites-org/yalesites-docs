@@ -11,8 +11,8 @@ export default {
     background: "#fff",
     modes: {
       dark: {
-        text: "#fff",
-        background: "#111",
+        text: "#ccc",
+        background: "#222",
       },
     },
   },
